@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    padding: 5rem 4rem;
+    background-image: linear-gradient(to right bottom, rgba(15, 14, 14, 0.8), rgba(20, 19, 22, 0.8)), 
+    url("imgs/background.jpg");
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.header-wrapper {
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title,
+.subtitle {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle {
+    font-weight: 400;
+}
+
+.a-letter,
+.s-letter {
+    font-size: 50px;
+    align-self: center;
+    font-weight: 700;
+    color: rgb(30, 204, 181);
+}
+
+.apps-container {
+    padding: 5rem 8rem;
+    min-height: 55vh;
+}
+
+.load-apps__btn {
+    padding: 1rem;
+    margin-top: 2rem;
+    background: rgb(175, 35, 89);
+    border-radius: 3px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.load-apps__btn:hover {
+    background: rgb(190, 65, 113);
+
+}
+
+.load-apps__btn:focus {
+    outline: none;
+}
+
+.apps-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    grid-gap: 1rem;
+    animation-name: popupopen, moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.about-container {
+    text-align: center;
+}
+
+.about-header {
+    color: rgba(20, 19, 22, 0.8);
+}
+
+.about-paragraph {
+    margin-top: 1rem;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.slide-left {
+    animation-name: disappear, moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+
+.app {
+    box-shadow: 0 1rem 1rem rgba(42, 46, 45, .5);
+    height: 18rem;
+    width: 18rem;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+   
+}
+
+.app:hover {
+    opacity: 0.9;
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.4s ease;
+
+}
+
+.btn-view {
+    /* background: rgb(175, 35, 89); */
+    background-image: linear-gradient(to right bottom, rgba(175, 35, 89, 0.8), rgba(20, 19, 22, 0.8)), 
+    url("background2.jpg");
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: 0%; 
+    padding: 1rem;
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    width: 18rem;
+    height: 18rem;
+    text-transform: uppercase;
+}
+
+.btn-view:hover {
+    background-image: linear-gradient(to right bottom, rgba(175, 35, 89, 0.8), rgba(20, 19, 22, 0.8)), 
+    url("imgs/background2.jpg");
+    filter: brightness(100%);
+
+
+}
+
+
+
+.app-header {
+    padding: 0;
+}
+
+.app-body {
+    padding: 2rem;
+}
+
+.paragraph-description {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.grow { 
+    transition: all .2s ease-in-out;
+ }
+.grow:hover { 
+    transform: scale(1.1);
+ }
+
+
+
+
+.app-link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+
+.grow2:hover {
+    transform: scale(1.3);
+    transition: all .2s ease-in-out;
+
+
+}
+
+.footer {
+    background-image: linear-gradient(to right bottom, rgba(15, 14, 14, 0.8), rgba(20, 19, 22, 0.8));
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: white;
+
+}
+.footer p {
+    font-size: 14px;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 11%;
+}
+
+
+
+@keyframes disappear {
+    from{opacity:1}
+    to{opacity:0}
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 1;
+        transform: translateX(100px);
+
+    }
+
+    80% {
+        transform: translateX(-10px);
+
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(0);
+    }
+}
+@keyframes popupopen {
+    from{opacity:0}
+    to{opacity:1}
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+
+    }
+
+    80% {
+        transform: translateX(-10px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
