@@ -105,6 +105,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
 }
+
 .slide-left {
     animation-name: disappear, moveInLeft;
     animation-duration: 1s;
@@ -119,6 +120,8 @@ body {
     cursor: pointer;
     position: relative;
     text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
    
 }
 
@@ -152,12 +155,14 @@ body {
     width: 18rem;
     height: 18rem;
     text-transform: uppercase;
+    border-radius: 25px;
 }
 
 .btn-view:hover {
     background-image: linear-gradient(to right bottom, rgba(175, 35, 89, 0.8), rgba(20, 19, 22, 0.8)), 
     url("imgs/background2.jpg");
     filter: brightness(100%);
+    border-radius: 25px;
 
 
 }
@@ -274,5 +279,45 @@ body {
     100% {
         opacity: 1;
         transform: translate(0);
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .apps-container {
+        padding: 5rem 3rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .apps-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .apps-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        padding: 5rem 0;
+
+    }
+
+    .main-title {
+        font-size: 27px;
+    }
+
+    .subtitle {
+        font-size: 22px;
     }
 }

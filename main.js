@@ -20,7 +20,7 @@ const apps = [
 
     app3 = {
         title: 'Countries of the World',
-        link: 'https://hexacolorgenerator.netlify.com/',
+        link: 'https://micahsuomi.github.io/Countries-of-the-World/',
         img: `imgs/app3.png`,
         description: 'A list of all countries of the world with sorting functions'
     },
@@ -32,15 +32,21 @@ const apps = [
         description: 'Because everyone loves little funny apps'
     },
 
-    app4 = {
+    app5 = {
         title: 'Score LeaderBoard',
         link: 'https://micahsuomi.github.io/Score-Leaderboard/',
         img: `imgs/app6.png`,
         description: 'A score leaderboard built with different functions'
     },
+    
+    app6 = {
+        title: 'Form Validation',
+        link: 'https://micahsuomi.github.io/Form-Validation-with-Regex/',
+        img: `imgs/app7.png`,
+        description: 'A form validation built with regular expressions'
+    },
 ]
 
-console.log(apps)
 
 const createNode = (e) => {
     return document.createElement(e);
