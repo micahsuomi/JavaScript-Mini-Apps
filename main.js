@@ -7,42 +7,42 @@ const apps = [
     app1 = {
         title: 'HexaColor Generator',
         link: 'https://hexacolorgenerator.netlify.com/',
-        img: 'imgs/app1.png',
+        img: 'imgs/app1.PNG',
         description: 'An HexaDecimal Random Color Generator'
     },
 
     app2 = {
         title: 'HTML Table Generator',
         link: 'https://html-tablegenerator.netlify.com/',
-        img: `imgs/app2.png`,
+        img: `imgs/app2.PNG`,
         description: 'An app that generates tables and table properties based on user input'
     },
 
     app3 = {
         title: 'Countries of the World',
         link: 'https://micahsuomi.github.io/Countries-of-the-World/',
-        img: `imgs/app3.png`,
+        img: `imgs/app3.PNG`,
         description: 'A list of all countries of the world with sorting functions'
     },
 
     app4 = {
         title: 'Chuck Norris Joke Generator',
         link: 'https://chucknorrisjokesgenerator.netlify.com/',
-        img: 'imgs/app4.png',
+        img: 'imgs/app4.PNG',
         description: 'Because everyone loves little funny apps'
     },
 
     app5 = {
         title: 'Score LeaderBoard',
         link: 'https://micahsuomi.github.io/Score-Leaderboard/',
-        img: `imgs/app6.png`,
+        img: `imgs/app6.PNG`,
         description: 'A score leaderboard built with different functions'
     },
     
     app6 = {
         title: 'Form Validation',
         link: 'https://micahsuomi.github.io/Form-Validation-with-Regex/',
-        img: 'imgs/app7.png',
+        img: 'imgs/app7.PNG',
         description: 'A form validation built with regular expressions'
     },
 ]
