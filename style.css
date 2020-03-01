@@ -286,7 +286,7 @@ body {
 @media screen and (max-width: 1024px) {
 
     .apps-container {
-        padding: 5rem 3rem;
+        padding: 5rem 2rem;
     }
 
 }
@@ -319,5 +319,18 @@ body {
 
     .subtitle {
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .app,
+    .btn-view {
+        height: 15rem;
+        width: 15rem;
+       
+    }
+
+    .app-body {
+        padding: 1rem;
     }
 }
