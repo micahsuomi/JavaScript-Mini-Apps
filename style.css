@@ -322,30 +322,30 @@ body {
     }
 
     .apps-container {
-        padding: 3rem 1rem;
+        padding: 3rem 2rem;
 
     }
     .apps-wrapper {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
     .app,
     .btn-view {
-        height: 10rem;
-        width: 10rem;
+        height: 17rem;
+        width: 17rem;
     }
 
     .app-body {
-        padding: .5rem;
+        padding: 1rem;
 
     }
 
     .app-title {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .paragraph-description {
         margin-top: .4rem;
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
@@ -365,20 +365,20 @@ body {
     }
     .app,
     .btn-view {
-        height: 9rem;
-        width: 9rem;
+        height: 15rem;
+        width: 15rem;
        
     }
 
     .app-body {
-        padding: .5rem;
+        padding: 1rem;
     }
 
     .app-title {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .paragraph-description {
-        font-size: 8px;
+        font-size: 12px;
     }
 }
