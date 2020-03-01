@@ -314,23 +314,71 @@ body {
     }
 
     .main-title {
-        font-size: 27px;
+        font-size: 24px;
     }
 
     .subtitle {
-        font-size: 22px;
+        font-size: 15px;
+    }
+
+    .apps-container {
+        padding: 3rem 1rem;
+
+    }
+    .apps-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .app,
+    .btn-view {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .app-body {
+        padding: .5rem;
+
+    }
+
+    .app-title {
+        font-size: 12px;
+    }
+
+    .paragraph-description {
+        margin-top: .4rem;
+        font-size: 10px;
     }
 }
 
 @media screen and (max-width: 320px) {
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+
+    }
+
+    .apps-container {
+        padding: 2rem .5rem;
+    }
     .app,
     .btn-view {
-        height: 15rem;
-        width: 15rem;
+        height: 9rem;
+        width: 9rem;
        
     }
 
     .app-body {
-        padding: 1rem;
+        padding: .5rem;
+    }
+
+    .app-title {
+        font-size: 10px;
+    }
+
+    .paragraph-description {
+        font-size: 8px;
     }
 }

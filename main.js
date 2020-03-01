@@ -97,6 +97,7 @@ loadAppsBtn.addEventListener('click', loadApps = () => {
         appTitle.textContent = title;
         appLink.href = link;
         appLink.setAttribute('class', 'app-link');
+        appTitle.setAttribute('class', 'app-title');
         appText.setAttribute('class', 'grow2');
         appLink.setAttribute('target', 'blank');
         appTitle.style.color = 'rgb(12,25,100)';
