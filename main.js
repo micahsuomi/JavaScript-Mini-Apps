@@ -29,21 +29,33 @@ const apps = [
         title: 'Chuck Norris Joke Generator',
         link: 'https://chucknorrisjokesgenerator.netlify.com/',
         img: 'imgs/app4.PNG',
-        description: 'Because everyone loves little funny apps'
+        description: 'Because everyone loves silly apps'
     },
 
     app5 = {
         title: 'Score LeaderBoard',
         link: 'https://micahsuomi.github.io/Score-Leaderboard/',
-        img: `imgs/app6.PNG`,
+        img: `imgs/app5.PNG`,
         description: 'A score leaderboard built with different functions'
     },
     
     app6 = {
         title: 'Form Validation',
         link: 'https://micahsuomi.github.io/Form-Validation-with-Regex/',
-        img: 'imgs/app7.PNG',
+        img: 'imgs/app6.PNG',
         description: 'A form validation built with regular expressions'
+    },
+    app7 = {
+        title: 'Weight Calculator on Planets',
+        link: 'https://micahsuomi.github.io/Planets-Object-Weight-Calculator-/',
+        img: 'imgs/app7.PNG',
+        description: 'A weight calculator on all the planets'
+    },
+    app8 = {
+        title: 'Word Counter',
+        link: 'https://micahsuomi.github.io/Form-Validation-with-Regex/',
+        img: 'imgs/app8.PNG',
+        description: 'An app that counts most frequent words and words variety in a text'
     },
 ]
 
