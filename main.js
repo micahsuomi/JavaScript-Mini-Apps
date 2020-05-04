@@ -53,7 +53,7 @@ const apps = [
     },
     app8 = {
         title: 'Word Counter',
-        link: 'https://micahsuomi.github.io/Form-Validation-with-Regex/',
+        link: 'https://micahsuomi.github.io/Word-Variety-Counter/',
         img: 'imgs/app8.PNG',
         description: 'An app that counts most frequent words and words variety in a text'
     },
