@@ -9,7 +9,6 @@ const apps = [
     img: "imgs/app1.PNG",
     description: "An HexaDecimal Random Color Generator",
   }),
-
   (app2 = {
     title: "HTML Table Generator",
     link: "https://html-tablegenerator.netlify.com/",
@@ -17,14 +16,12 @@ const apps = [
     description:
       "An app that generates tables and table properties based on user input",
   }),
-
   (app3 = {
     title: "Countries of the World",
     link: "https://micahsuomi.github.io/Countries-of-the-World/",
     img: `imgs/app3.PNG`,
     description: "A list of all countries of the world with sorting functions",
   }),
-
   (app4 = {
     title: "Chuck Norris Joke Generator",
     link: "https://chucknorrisjokesgenerator.netlify.com/",
@@ -37,14 +34,12 @@ const apps = [
     img: "imgs/app5.JPG",
     description: "An budgeting app that calculates expenses and income",
   }),
-
   (app6 = {
     title: "Score LeaderBoard",
     link: "https://micahsuomi.github.io/Score-Leaderboard/",
     img: `imgs/app6.PNG`,
     description: "A score leaderboard built with different functions",
   }),
-
   (app7 = {
     title: "Weight Calculator on Planets",
     link: "https://micahsuomi.github.io/Planets-Object-Weight-Calculator-/",
@@ -58,7 +53,6 @@ const apps = [
     description:
       "An app that counts most frequent words and words variety in a text",
   }),
-
   (app9 = {
     title: "Form Validation",
     link: "https://micahsuomi.github.io/Form-Validation-with-Regex/",
